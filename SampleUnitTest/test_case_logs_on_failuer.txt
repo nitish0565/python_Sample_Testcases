@@ -1,0 +1,52 @@
+C:\Users\NitishReddySingidi\AppData\Local\Programs\Python\Python39\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2021.2/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target maths_unittest.py::MathsUnitest
+Testing started at 15:39 ...
+Launching pytest with arguments maths_unittest.py::MathsUnitest in D:\SP\PythonTesting\SampleUnitTest
+
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-5.4.1, py-1.10.0, pluggy-0.13.1 -- C:\Users\NitishReddySingidi\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: D:\SP\PythonTesting\SampleUnitTest
+collecting ... collected 3 items
+
+maths_unittest.py::MathsUnitest::test_multiply
+maths_unittest.py::MathsUnitest::test_sub PASSED                    [ 33%]FAILED                         [ 66%]
+maths_unittest.py:19 (MathsUnitest.test_sub)
+3 != -3
+
+Expected :-3
+Actual   :3
+<Click to see difference>
+
+self = <maths_unittest.MathsUnitest testMethod=test_sub>
+
+    def test_sub(self):
+        expected_sub = 3
+        executed_sub = self.math_obj.sub()
+>       self.assertEqual(executed_sub, expected_sub)
+
+maths_unittest.py:23: AssertionError
+PASSED                         [100%]
+
+
+maths_unittest.py::MathsUnitest::test_sum
+
+================================== FAILURES ===================================
+____________________________ MathsUnitest.test_sub ____________________________
+
+self = <maths_unittest.MathsUnitest testMethod=test_sub>
+
+    def test_sub(self):
+        expected_sub = 3
+        executed_sub = self.math_obj.sub()
+>       self.assertEqual(executed_sub, expected_sub)
+
+maths_unittest.py:23:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py:33: in _patched_equals
+    old(self, first, second, msg)
+E   AssertionError: -3 != 3
+=========================== short test summary info ===========================
+FAILED maths_unittest.py::MathsUnitest::test_sub - AssertionError: -3 != 3
+========================= 1 failed, 2 passed in 0.18s =========================
+
+Process finished with exit code 1

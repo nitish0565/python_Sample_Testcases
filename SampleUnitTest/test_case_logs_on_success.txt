@@ -1,0 +1,18 @@
+C:\Users\NitishReddySingidi\AppData\Local\Programs\Python\Python39\python.exe "C:/Program Files/JetBrains/PyCharm Community Edition 2021.2/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target maths_unittest.py::MathsUnitest
+Testing started at 15:44 ...
+Launching pytest with arguments maths_unittest.py::MathsUnitest in D:\SP\PythonTesting\SampleUnitTest
+
+============================= test session starts =============================
+platform win32 -- Python 3.9.6, pytest-5.4.1, py-1.10.0, pluggy-0.13.1 -- C:\Users\NitishReddySingidi\AppData\Local\Programs\Python\Python39\python.exe
+cachedir: .pytest_cache
+rootdir: D:\SP\PythonTesting\SampleUnitTest
+collecting ... collected 3 items
+
+maths_unittest.py::MathsUnitest::test_multiply
+maths_unittest.py::MathsUnitest::test_sub
+maths_unittest.py::MathsUnitest::test_sum
+
+============================== 3 passed in 0.15s ==============================
+
+Process finished with exit code 0
+PASSED                    [ 33%]PASSED                         [ 66%]PASSED                         [100%]
