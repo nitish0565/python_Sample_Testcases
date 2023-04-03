@@ -6,5 +6,11 @@ Python test cases for addition, multiplication, and subtraction. I have created 
 1. unittest 
 2. Pytest
 
+### On All Testcases Success
 ![alt text](https://github.com/nitish0565/pythontestsamples/blob/master/SampleUnitTest/on_all_test_case_success.png)
+
+
+### On Any Testcases Failure
+![alt text](https://github.com/nitish0565/pythontestsamples/blob/master/SampleUnitTest/on_any_test_case_failuer.png)
+
 
